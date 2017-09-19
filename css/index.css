@@ -16,7 +16,11 @@ body{
 	margin: 0 auto;
 }
 
-.jugar{
+button{
+	width: 120px;
+}
+
+.cine{
 	margin-top: 10px;
 	margin-left: 50px;
 	font-family: 'Baloo Tammudu', cursive;

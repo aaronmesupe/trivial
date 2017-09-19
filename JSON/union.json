@@ -1,5 +1,6 @@
 {
-  "preguntas" : [ {
+  "preguntas" : {
+    "cine" : [ {
     "index" : 0.0,
     "respuestaCorrecta" : "respuestaCorrecta",
     "respuestasIncorrectas" : [ "respuesta1", "respuesta2", "respuesta3", "respuesta4" ],
@@ -260,7 +261,260 @@
     "respuestaCorrecta" : "El Renacido",
     "respuestasIncorrectas" : [ "Titanic", "El Lobo de Wall Street", "Atrápame si puedes", "Shutter Island" ],
     "titulo" : "Película con la que Leonardo DiCaprio ganó un Oscar"
-  } ],
+  } ], 
+    "ciencias" : [ {
+    "index" : 0.0,
+    "respuestaCorrecta" : "respuestaCorrecta",
+    "respuestasIncorrectas" : [ "respuesta1", "respuesta2", "respuesta3", "respuesta4" ],
+    "titulo" : "Valor de la pregunta"
+    },
+    {
+    "index" : 1,
+    "respuestaCorrecta" : "Célula",
+    "respuestasIncorrectas" : [ "Partícula", "Tejido", "Neurona", "Órgano" ],
+    "titulo" : "¿Cómo se llama el componente mínimo que forma a los seres vivos?"
+    },
+     {
+    "index" : 2,
+    "respuestaCorrecta" : "El núcleo",
+    "respuestasIncorrectas" : [ "La membrána", "El Citoplasma", "Los ribosomas", "Las Vacuolas" ],
+    "titulo" : "¿Dónde se localiza la información genética en las células?"
+    },
+     {
+    "index" : 3,
+    "respuestaCorrecta" : "Mitosis",
+    "respuestasIncorrectas" : [ "Meiosis", "Segregación", "División", "Bipartición" ],
+    "titulo" : "¿Cómo se llama el proceso por el que una célula se divide en dos células hijas?"
+    },
+     {
+    "index" : 4,
+    "respuestaCorrecta" : "ADN",
+    "respuestasIncorrectas" : [ "ARN", "Proteínas", "ARN-M", "Lípidos" ],
+    "titulo" : "¿Por qué están formados los cromosomas?"
+    },
+     {
+    "index" : 5,
+    "respuestaCorrecta" : "Mulo",
+    "respuestasIncorrectas" : [ "Asno", "Burro", "Caballo", "Potro" ],
+    "titulo" : "Al descendiente de un asno y una yegua se le conoce como:"
+    },
+     {
+    "index" : 6,
+    "respuestaCorrecta" : "Gravedad",
+    "respuestasIncorrectas" : [ "Rozamiento", "Centrífuga", "Centrípeta", "Normal" ],
+    "titulo" : "¿Cómo se llama la fuerza que ejerce la Tierra sobre los cuerpos?"
+    },
+     {
+    "index" : 7,
+    "respuestaCorrecta" : "Darwinismo",
+    "respuestasIncorrectas" : [ "Creacionismo", "Gradualismo", "Pautacionismo", "Lamarckismo" ],
+    "titulo" : "¿Cómo se llama la teoría que considera que todos los organismos descendemos del mismo ancestro?"
+    },
+     {
+    "index" : 8,
+    "respuestaCorrecta" : "Gases Nobles",
+    "respuestasIncorrectas" : [ "Alcalinos", "Alcalinoterreos", "Lantánidos", "Metaloides" ],
+    "titulo" : "La columna más a la derecha en la tabla periódica pertenece a: "
+    },
+     {
+    "index" : 9,
+    "respuestaCorrecta" : "Electrones",
+    "respuestasIncorrectas" : [ "Protones", "Neutrones", "Isótopos", "Bosones" ],
+    "titulo" : "¿Cómo se llaman las partículas que tienen carga eléctrica negativa?"
+    },
+     {
+    "index" : 10,
+    "respuestaCorrecta" : "Estrella",
+    "respuestasIncorrectas" : [ "Planeta", "Satélite", "Gigante Roja", "Supernova" ],
+    "titulo" : "El Sol es:"
+    },
+     {
+    "index" : 11,
+    "respuestaCorrecta" : "Dinamita",
+    "respuestasIncorrectas" : [ "Penicilina", "Bomba Atómica", "Pasteurización", "Pararrayos" ],
+    "titulo" : "¿Qué inventó Alfred Nobel?"
+    },
+     {
+    "index" : 12,
+    "respuestaCorrecta" : "Pitágoras",
+    "respuestasIncorrectas" : [ "Arquímides", "Tales", "Laplace", "Rouché-Frobenius" ],
+    "titulo" : "¿A qué teorema pertenece esta fórmula? h*h = (c*c) + (c*c)"
+    },
+     {
+    "index" : 13,
+    "respuestaCorrecta" : "Llevar Oxígeno",
+    "respuestasIncorrectas" : [ "Coagular", "Combatir enfermedad", "Limpiar la sangre", "No tienen" ],
+    "titulo" : "Principal función de los glóbulos rojos"
+    },
+     {
+    "index" : 14,
+    "respuestaCorrecta" : "Paleontología",
+    "respuestasIncorrectas" : [ "Geología", "Biología", "Sociología", "Astrología" ],
+    "titulo" : "¿Cómo se llama la ciencia que estudia los fósiles?"
+    },
+     {
+    "index" : 15,
+    "respuestaCorrecta" : "Intestino",
+    "respuestasIncorrectas" : [ "Pulmones", "Riñones", "Corazón", "Arterias" ],
+    "titulo" : "¿Qué órgano pertenece al aparato digestivo?"
+    },
+     {
+    "index" : 16,
+    "respuestaCorrecta" : "Cerebelo",
+    "respuestasIncorrectas" : [ "Medula Espinal", "Columna", "Cráneo", "Nervios" ],
+    "titulo" : "Las partes del encéfalo son: Cerebro, Bulbo Raquídeo y ..."
+    },
+     {
+    "index" : 17,
+    "respuestaCorrecta" : "Hojas",
+    "respuestasIncorrectas" : [ "Tallo", "Raiz", "Ramas", "Aire" ],
+    "titulo" : "¿Dónde realizan las plantas la fotosíntesis?"
+    },
+     {
+    "index" : 18,
+    "respuestaCorrecta" : 5,
+    "respuestasIncorrectas" : [ 2, 6, 8, 4 ],
+    "titulo" : "Las especies de seres vivos de divien en reinos. ¿cuántos hay?"
+    },
+     {
+    "index" : 19,
+    "respuestaCorrecta" : "Sb",
+    "respuestasIncorrectas" : [ "Au", "Li", "K", "Sn" ],
+    "titulo" : "¿Qué símbolo tiene el Antimonio?"
+    },
+     {
+    "index" : 20,
+    "respuestaCorrecta" : "Magnesio",
+    "respuestasIncorrectas" : [ "Manganeso", "Molibdeno", "Meitnerio", "Mendelevio" ],
+    "titulo" : "¿A qué elemento pertenece el símbolo Mg?"
+    }], 
+    "historia" : [ {
+    "index" : 0.0,
+    "respuestaCorrecta" : "respuestaCorrecta",
+    "respuestasIncorrectas" : [ "respuesta1", "respuesta2", "respuesta3", "respuesta4" ],
+    "titulo" : "Valor de la pregunta"
+    },
+    {
+    "index" : 1,
+    "respuestaCorrecta" : 1492,
+    "respuestasIncorrectas" : [ 1500, 1298, 1942, 1490 ],
+    "titulo" : "¿En qué año se descubrió América?"
+    },
+     {
+    "index" : 2,
+    "respuestaCorrecta" : "100 años",
+    "respuestasIncorrectas" : [ "Cruzadas", "Napoleónicas", "30 años", "I GM" ],
+    "titulo" : "Guerra en la que participó Juana de Arco"
+    },
+     {
+    "index" : 3,
+    "respuestaCorrecta" : "Siglo XVI",
+    "respuestasIncorrectas" : [ "Siglo XV", "Siglo XIV", "Siglo XVII", "Siglo XIII" ],
+    "titulo" : "¿Cuando se produjo, principalmente, el Siglo de Oro?"
+    },
+     {
+    "index" : 4,
+    "respuestaCorrecta" : 1812,
+    "respuestasIncorrectas" : [ 1792, 1900, 1820, 1557 ],
+    "titulo" : "¿De qué año es 'La Pepa'?"
+    },
+     {
+    "index" : 5,
+    "respuestaCorrecta" : "Cesar Augusto",
+    "respuestasIncorrectas" : [ "Calígula", "Julio Cesar", "Nerón", "Marco Antonio" ],
+    "titulo" : "¿Quién fuel el primer emperador romano?"
+    },
+     {
+    "index" : 6,
+    "respuestaCorrecta" : "Felipe IV",
+    "respuestasIncorrectas" : [ "Felipe II", "Felipe V", "Felipe III", "Carlo IV" ],
+    "titulo" : "¿Qué Rey encargó 'Las Meninas'?"
+    },
+     {
+    "index" : 7,
+    "respuestaCorrecta" : "Austria",
+    "respuestasIncorrectas" : [ "Polonia", "Alemania", "Suiza", "Hungría" ],
+    "titulo" : "¿En qué país nació Adolf Hitler?"
+    },
+     {
+    "index" : 8,
+    "respuestaCorrecta" : "Galaecia",
+    "respuestasIncorrectas" : [ "Bética", "Tarraco", "Meseta Central", "Penibética" ],
+    "titulo" : "¿Qué lugar de la península ocuparon los visigodos en su invasión a España?"
+    },
+     {
+    "index" : 9,
+    "respuestaCorrecta" : "Italia",
+    "respuestasIncorrectas" : [ "España", "Francia", "Portugal", "Suiza" ],
+    "titulo" : "¿Qué país fue sede del Imperio Romano?"
+    },
+     {
+    "index" : 10,
+    "respuestaCorrecta" : "Siglo XIV",
+    "respuestasIncorrectas" : [ "Siglo XII", "Siglo XVI", "Siglo XV", "Siglo XIII" ],
+    "titulo" : "¿En qué siglo arrasó Europa la peste bubónica?"
+    },
+     {
+    "index" : 11,
+    "respuestaCorrecta" : "Romano",
+    "respuestasIncorrectas" : [ "Mongol", "Griego", "Otomano", "Sueco" ],
+    "titulo" : "Imperio que conquistó el Antiguo Egipto"
+    },
+     {
+    "index" : 12,
+    "respuestaCorrecta" : 1873,
+    "respuestasIncorrectas" : [ 1878, 1875, 1812, 1885 ],
+    "titulo" : "La I República española se proclama en ..."
+    },
+     {
+    "index" : 13,
+    "respuestaCorrecta" : "Valencia",
+    "respuestasIncorrectas" : [ "Madrid", "Barcelona", "Toledo", "Murcia" ],
+    "titulo" : "¿En qué ciudad murió el Cid luchando contra los musulmanes?"
+    },
+     {
+    "index" : 14,
+    "respuestaCorrecta" : "Inglaterra",
+    "respuestasIncorrectas" : [ "Francia", "Portugal", "Marruecos", "Italia" ],
+    "titulo" : "La Armada Invencible fue derrotada en 1588 al intentar invadir ..."
+    },
+     {
+    "index" : 15,
+    "respuestaCorrecta" : "Bailén",
+    "respuestasIncorrectas" : [ "Valencia", "Sevilla", "Cádiz", "Cáceres" ],
+    "titulo" : "En 1808 se produce la primera derrota del ejército napoleónico en España en ..."
+    },
+     {
+    "index" : 16,
+    "respuestaCorrecta" : "El Sabio",
+    "respuestasIncorrectas" : [ "El Loco", "El Rebelde", "El Hermoso", "El Católico" ],
+    "titulo" : "¿Cómo era conocido Alfonso X de Castilla?"
+    },
+     {
+    "index" : 17,
+    "respuestaCorrecta" : "Portugal",
+    "respuestasIncorrectas" : [ "Marruecos", "Grecia", "Francia", "Italia" ],
+    "titulo" : "¿A qué país pertenecía Ceuta antes de ser conquistada por España?"
+    },
+     {
+    "index" : 18,
+    "respuestaCorrecta" : "Alfonso XIII",
+    "respuestasIncorrectas" : [ "Alfonso XII", "Alfonso IX", "Alfonso X", "Alfonso VIII" ],
+    "titulo" : "La Dictadura de Primo de Rivera se produce con el rey ..."
+    },
+     {
+    "index" : 19,
+    "respuestaCorrecta" : "1939-1945",
+    "respuestasIncorrectas" : [ "1936-1939", "1914-1918", "1940-1946", "1936-1946" ],
+    "titulo" : "¿Qué periodo comprende la Segunda Guerra Mundial?"
+    },
+     {
+    "index" : 20,
+    "respuestaCorrecta" : 1969,
+    "respuestasIncorrectas" : [ 1960, 1972, 1991, 1982 ],
+    "titulo" : "¿En qué año pisó por primera vez la Luna el hombre?"
+    }]
+},
   "usuarios":{
     "Carmen" : {
         "index" : 138,

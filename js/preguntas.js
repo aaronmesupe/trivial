@@ -9,13 +9,17 @@ var config = {
 };
 firebase.initializeApp(config);
 
+var categoria = window.location.search.substr(1);
+var nombreCategoria = categoria.split ("?");
+nombreCategoria = nombreCategoria[0]
+
 var numeroPuntos = 0;
 var numeroVidas = 3;
 
 //Nos conectamos a la URL de la Base de Datos, obtenemos los datos y los pasamos a la
 //funcion que genera las preguntas
-$.get('https://trivial-film-eoi.firebaseio.com/.json?print=pretty', function(data) {
-    arrayPreguntas = data.preguntas
+$.get('https://trivial-film-eoi.firebaseio.com/preguntas/.json?print=pretty', function(data) {
+    arrayPreguntas = data[nombreCategoria]
     arrayPreguntas.splice(0, 1);
     preguntas(arrayPreguntas);
 });

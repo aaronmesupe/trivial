@@ -21,7 +21,9 @@ limpiar();
 function anadirUsuarios(users){
   nombresUsuarios = Object.keys(users) ;
 
-  $('.jugar').on("click", function(e){
+  $('.btn').on("click", function(e){
+
+      cat = $(this).attr('value');
 
       var coincide = 0;
 
@@ -70,6 +72,6 @@ function numRandom (min, max) {
 
 
 function move(){
-  url = './preguntas.html?nombre='+usuario;
+  url = './preguntas.html?'+cat+'?nombre='+usuario;
   window.location = url;
 }
