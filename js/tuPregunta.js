@@ -14,8 +14,18 @@ $.get('https://trivial-film-eoi.firebaseio.com/preguntas/.json?print=pretty', fu
 	anadirPreguntas(preguntasAnadidas)
 });
 
+function mayuscula(string){
+	return string.charAt(0).toUpperCase() + string.slice(1)
+}
+
 
 function anadirPreguntas(preguntasAnadidas){
+
+	categorias =Object.keys(preguntasAnadidas)
+
+	for(var i = 0; i < categorias.length; i++){
+		$('#default').after("<option value="+categorias[i]+">"+mayuscula(categorias[i])+"</option>");
+	}
 
 	$('.enviar-pregunta').on("click", function(e){
 		usuario = $('.usuario').val();
@@ -35,9 +45,9 @@ function anadirPreguntas(preguntasAnadidas){
 			}
 		}
 		else{
-			
+
 			long = preguntasAnadidas[cat].length
-			
+
 			dbPregunta = firebase.database().ref().child('preguntas/'+cat+'/'+long)
 			dbPregunta.set({"index":long,"nombreUsuario":usuario,"titulo":titulo,
 		 	"respuestaCorrecta":rc,"respuestasIncorrectas":[ri1, ri2, ri3, ri4]});

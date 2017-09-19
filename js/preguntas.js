@@ -81,13 +81,12 @@ function respuestas(pregunta){
 //Elimina el contenedor de la pregunta y los botones de las respuestas
 function borrar(){
 
-    param = document.getElementsByClassName('buttons');
+    param = document.getElementsByClassName('caja-pregunta');
     if (!param){
         console.log('No existe el elemento')
     }
     else {
         padre = param[0].parentNode;
-        padre = padre.parentNode;
         $(padre).empty();
     }
     preguntas(arrayPreguntas);

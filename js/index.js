@@ -15,7 +15,6 @@ $.get('https://trivial-film-eoi.firebaseio.com/.json?print=pretty', function(dat
   anadirUsuarios(usuarios)
 });
 
-
 limpiar();
 
 function anadirUsuarios(users){
