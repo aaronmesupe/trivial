@@ -17,8 +17,6 @@ $.get('https://trivial-film-eoi.firebaseio.com/preguntas/.json?print=pretty', fu
 
 function anadirPreguntas(preguntasAnadidas){
 
-	long = preguntasAnadidas.length
-
 	$('.enviar-pregunta').on("click", function(e){
 		usuario = $('.usuario').val();
 		titulo = $('.titulo').val();
@@ -27,16 +25,20 @@ function anadirPreguntas(preguntasAnadidas){
 		ri2 = $('.ri2').val();
 		ri3 = $('.ri3').val();
 		ri4 = $('.ri4').val();
+		cat = $('.categoria').val()
 
-
-		if ( usuario === "" || titulo === "" || rc === "" || ri1 === "" || ri2 === "" || ri3 === "" || ri4 === "" ){
+		if ( usuario === "" || titulo === "" || rc === "" || ri1 === "" || ri2 === "" || ri3 === ""
+				|| ri4 === "" || cat == "0"){
 			var reiniciar = confirm('Faltan campos por reyenar. \n¿Reiniciar formulario?');
 			if (reiniciar == true){
 				limpiar();
 			}
 		}
 		else{
-			dbPregunta = firebase.database().ref().child('preguntas/'+long)
+			
+			long = preguntasAnadidas[cat].length
+			
+			dbPregunta = firebase.database().ref().child('preguntas/'+cat+'/'+long)
 			dbPregunta.set({"index":long,"nombreUsuario":usuario,"titulo":titulo,
 		 	"respuestaCorrecta":rc,"respuestasIncorrectas":[ri1, ri2, ri3, ri4]});
 		 	limpiar();
@@ -56,4 +58,5 @@ function limpiar(){
 	$('.ri2').val('');
 	$('.ri3').val('');
 	$('.ri4').val('');
+	$('.categoria').val('0');
 }

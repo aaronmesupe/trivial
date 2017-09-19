@@ -4,7 +4,7 @@ body{
 
 .tu-pregunta{
 	position: absolute;
-	top: 80px;
+	top: 6px;
 	left: 520px;
 }
 
@@ -17,6 +17,10 @@ button{
 }
 
 @media (max-width: 820px){
+	body{
+		font-size: 13px;
+	}
+
 	.tu-pregunta{
 		left: 220px;
 	}

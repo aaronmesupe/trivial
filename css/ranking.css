@@ -1,7 +1,8 @@
 .usuarios-ranking{
-	position: absolute;
-	top: 150px;
-	left: 520px;
+	align-items: center;
+	height: 100vh;
+	top: 80px;
+	left: 25px;
 }
 
 .ranking{
@@ -15,23 +16,4 @@
 
 .jugador{
 	color: #F7FE2E;
-}
-
-@media (max-width: 815px){
-	.usuarios-ranking{
-		position: absolute;
-		top: 150px;
-		left: 280px;
-		width: 250px;
-	}
-}
-
-@media (max-width: 400px){
-	.usuarios-ranking{
-		left: 40px;
-	}
-
-	.ranking{
-		width: 230px;
-	}
 }
