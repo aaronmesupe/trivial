@@ -1,0 +1,321 @@
+{
+  "preguntas" : [ {
+    "index" : 0.0,
+    "respuestaCorrecta" : "respuestaCorrecta",
+    "respuestasIncorrectas" : [ "respuesta1", "respuesta2", "respuesta3", "respuesta4" ],
+    "titulo" : "Valor de la pregunta"
+  }, {
+    "index" : 1.0,
+    "respuestaCorrecta" : "Sebastian",
+    "respuestasIncorrectas" : [ "Alberto", "Ricardo", "Bertín", "Cristian" ],
+    "titulo" : "¿Cómo se llama el cangrejo de la Sirenita?"
+  }, {
+    "index" : 2.0,
+    "respuestaCorrecta" : "Caballo",
+    "respuestasIncorrectas" : [ "Perro", "Dragón", "Conejo", "Águila" ],
+    "titulo" : "¿Qué animal aparece en la bandera de Rohan?"
+  }, {
+    "index" : 3.0,
+    "respuestaCorrecta" : "Robert Downey Jr",
+    "respuestasIncorrectas" : [ "Tom Cruise", "Ewan McGregor", "Adam Sandler", "Nicolas Cage" ],
+    "titulo" : "¿Cómo se llama el actor que interpreta a Iron Man?"
+  }, {
+    "index" : 4.0,
+    "respuestaCorrecta" : "Poniente",
+    "respuestasIncorrectas" : [ "Oriente", "Turquía", "Marruecos", "Asgard" ],
+    "titulo" : "Lugar donde se desarrolla la historia de 'Juego de Tronos'"
+  }, {
+    "index" : 5.0,
+    "respuestaCorrecta" : "Klaus Badelt",
+    "respuestasIncorrectas" : [ "Hans Zimmer", "James Horner", "Howard Shore", "John Williams" ],
+    "titulo" : "¿Quién es el compositor de la banda sonora de 'Piratas del Caribe - La Maldición de la Perla Negra'?"
+  }, {
+    "index" : 6.0,
+    "respuestaCorrecta" : "Geoffrey Rush",
+    "respuestasIncorrectas" : [ "Orlando Bloom", "Johnny Depp", "Javier Bardem", "Kevin MacNally" ],
+    "titulo" : "¿Quién encarnó al 'Capitán Barbosa'?"
+  }, {
+    "index" : 7.0,
+    "respuestaCorrecta" : "Forest Gump",
+    "respuestasIncorrectas" : [ "Legolas", "Jack Sparrow", "Thor", "Newt" ],
+    "titulo" : "¿Quién dijo esta frase? 'Mi mamá dice que la vida es como una caja de bombones'"
+  }, {
+    "index" : 8.0,
+    "respuestaCorrecta" : "Caballo",
+    "respuestasIncorrectas" : [ "Toro", "Pájaro", "Perro", "Burro" ],
+    "titulo" : "¿La cabeza de qué animal se encuentran en la cama en la película 'El Padrino'?"
+  }, {
+    "index" : 9.0,
+    "respuestaCorrecta" : 20.0,
+    "respuestasIncorrectas" : [ 10.0, 18.0, 23.0, 13.0 ],
+    "titulo" : "¿Cuántas películas conforman la saga '007'?"
+  }, {
+    "index" : 10.0,
+    "respuestaCorrecta" : "Patito",
+    "respuestasIncorrectas" : [ "Cerdito", "Bichito", "Morritos", "Amorcito" ],
+    "titulo" : "¿Cómo suele llamar Katniss a su hermana en 'Los Juegos del Hambre'?"
+  }, {
+    "index" : 11.0,
+    "respuestaCorrecta" : "Espada Láser",
+    "respuestasIncorrectas" : [ "Martillo de Thor", "Barita", "Traje de Iron Man", "Anillo único" ],
+    "titulo" : "¿Qué saca Leonard en el capítulo 2 de la primera temporada de 'Big Bang'?"
+  }, {
+    "index" : 12.0,
+    "respuestaCorrecta" : "Libro de Pociones",
+    "respuestasIncorrectas" : [ "Barita de Sauco", "Capa de Invisibilidad", "Piedra de Resurrección", "Diadema de Ravenclaw" ],
+    "titulo" : "¿Qué esconden Harry y Ginny en la sala de los Menesteres?"
+  }, {
+    "index" : 13.0,
+    "respuestaCorrecta" : "Nagini",
+    "respuestasIncorrectas" : [ "Diario", "Guardapelo", "Diadema", "Copa" ],
+    "titulo" : "¿Cuál es el último Horrocrux que se destruye en las películas de Harry Potter?"
+  }, {
+    "index" : 14.0,
+    "respuestaCorrecta" : "Scrappy-Doo",
+    "respuestasIncorrectas" : [ "Vilma", "Daphne", "Fred", "Shaggy" ],
+    "titulo" : "¿Quién atrae a Scooby-Doo y a sus amigos a 'Isla Espectra'?"
+  }, {
+    "index" : 15.0,
+    "respuestaCorrecta" : "Na'vi",
+    "respuestasIncorrectas" : [ "Avatar", "Eywa", "Tsahaylu", "Aleluya" ],
+    "titulo" : "¿Cómo se llama el pueblo que vive en Pandora?"
+  }, {
+    "index" : 16.0,
+    "respuestaCorrecta" : "Victoriana",
+    "respuestasIncorrectas" : [ "Barroca", "Renacentista", "Rococó", "Neoclásica" ],
+    "titulo" : "¿En qué época contruye Alexander Hartdegen la máquina del tiempo?"
+  }, {
+    "index" : 17.0,
+    "respuestaCorrecta" : "Sigourney Weaver",
+    "respuestasIncorrectas" : [ "Helen Horton", "Veronica Cartwright", "Nicole Kidman", "Kate Winslet" ],
+    "titulo" : "¿Cómo se llama la actriz que interpreta a 'Ripley' en Alien?"
+  }, {
+    "index" : 18.0,
+    "respuestaCorrecta" : "Jonsey",
+    "respuestasIncorrectas" : [ "Pluto", "Scabbers", "Frank", "Crookshanks" ],
+    "titulo" : "¿Cómo se llama el gato de Ripley?"
+  }, {
+    "index" : 19.0,
+    "respuestaCorrecta" : "Reloj",
+    "respuestasIncorrectas" : [ "Libro", "Pelota", "Gato", "Pulsera" ],
+    "titulo" : "¿Qué regalo le hace Ripley a Newt en 'Alien 2'?"
+  }, {
+    "index" : 20.0,
+    "respuestaCorrecta" : "Abbey",
+    "respuestasIncorrectas" : [ "Pluto", "Pongo", "Golfo", "Tobby" ],
+    "titulo" : "¿Cómo se llama el perro de Will Smith en 'Soy Leyenda'?"
+  }, {
+    "index" : 21.0,
+    "respuestaCorrecta" : "Cesar",
+    "respuestasIncorrectas" : [ "Augusto", "Julio", "Marco", "Antonio" ],
+    "titulo" : "¿Cómo se llama el simio que adopta James Franco en 'El Planeta de los Simios'?"
+  }, {
+    "index" : 22.0,
+    "respuestaCorrecta" : "No",
+    "respuestasIncorrectas" : [ "Si", "Cesar", "Will", "Familia" ],
+    "titulo" : "¿Qué es lo primero que dice Cesar en 'El Planeta de los Simios'?"
+  }, {
+    "index" : 23.0,
+    "respuestaCorrecta" : "Nefilim",
+    "respuestasIncorrectas" : [ "Maga", "Vampira", "Mujerlobo", "Humana" ],
+    "titulo" : "¿Qué es Clary en 'Cazadores de Sombras'?"
+  }, {
+    "index" : 24.0,
+    "respuestaCorrecta" : "Moneda",
+    "respuestasIncorrectas" : [ "Colgante", "Espada", "Mapa", "Pañuelo" ],
+    "titulo" : "¿Qué le quita Elisabeth a Will en 'Piratas del Caribe 1'?"
+  }, {
+    "index" : 25.0,
+    "respuestaCorrecta" : "Naranja",
+    "respuestasIncorrectas" : [ "Verde", "Azul", "Amarillo", "Violeta" ],
+    "titulo" : "¿Cuál es el color favorito de Peeta en 'Los Juegos del Hambre'?"
+  }, {
+    "index" : 26.0,
+    "respuestaCorrecta" : "Sr. Wilson",
+    "respuestasIncorrectas" : [ "Sr. Livingstone", "Sr. McCourt", "Sr. O'Conner", "Sr. DiLaurentis" ],
+    "titulo" : "En la película 'Naufrago', ¿cómo se llama el balón?"
+  }, {
+    "index" : 27.0,
+    "respuestaCorrecta" : "Libro de los Muertos",
+    "respuestasIncorrectas" : [ "Libro de Hechizos", "Libro de Pociones", "Libro de Conjuros", "Libro de las Almas" ],
+    "titulo" : "¿Qué libro usan en 'La Momia 2' para revivir a la momia?"
+  }, {
+    "index" : 28.0,
+    "respuestaCorrecta" : "Wakanda",
+    "respuestasIncorrectas" : [ "Narnia", "El Dorado", "Fantasía", "Pandora" ],
+    "titulo" : "¿De qué país procede el 'Vibranium'?"
+  }, {
+    "index" : 29.0,
+    "respuestaCorrecta" : "Adamantium",
+    "respuestasIncorrectas" : [ "Vibranium", "Plata", "Cobre", "Hierro" ],
+    "titulo" : "¿De qué material está recubierto el esqueleto de 'Lobezno'?"
+  }, {
+    "index" : 30.0,
+    "respuestaCorrecta" : "Toc-toc-toc Penny",
+    "respuestasIncorrectas" : [ "Estás en mi sitio", "Zas, en toda la boca", "Ea Ea", "No puedo olvidarlo" ],
+    "titulo" : "¿Cuál es la frase más conocida de 'Sheldon Cooper'?"
+  }, {
+    "index" : 31.0,
+    "respuestaCorrecta" : "La Red Social",
+    "respuestasIncorrectas" : [ "Eliminado", "Open Windows", "Nerve", "Avatar" ],
+    "titulo" : "¿Cómo se llama la película que está basada en 'Facebook'?"
+  }, {
+    "index" : 32.0,
+    "respuestaCorrecta" : "Besar a un desconocido",
+    "respuestasIncorrectas" : [ "Bailar en público", "Robar un vestido", "Matar a alguien", "Subir a lo más alto" ],
+    "titulo" : "¿Cuál es el primer reto de la protagonista de 'Nerve'?"
+  }, {
+    "index" : 33.0,
+    "respuestaCorrecta" : "Dunédain",
+    "respuestasIncorrectas" : [ "Enano", "Humano", "Hobbit", "Elfo" ],
+    "titulo" : "¿Qué raza es Aragorn?"
+  }, {
+    "index" : 34.0,
+    "respuestaCorrecta" : "Zazú",
+    "respuestasIncorrectas" : [ "Nala", "Sarabi", "Rafiki", "Kobu" ],
+    "titulo" : "¿Cómo se llama el pájaro de 'El Rey León'?"
+  }, {
+    "index" : 35.0,
+    "respuestaCorrecta" : "Motoko",
+    "respuestasIncorrectas" : [ "Akiko", "Sakura", "Asuna", "Sinon" ],
+    "titulo" : "¿Cuál es el verdadero nombre de la protagonista de 'Ghost in the Shell'?"
+  }, {
+    "index" : 36.0,
+    "respuestaCorrecta" : "Halcón Milenario",
+    "respuestasIncorrectas" : [ "Enterprise", "TIE Interceptor", "TIE Phantom", "X-Wing" ],
+    "titulo" : "¿Cómo se llama la nave de Han Solo?"
+  }, {
+    "index" : 37.0,
+    "respuestaCorrecta" : "Crucio",
+    "respuestasIncorrectas" : [ "Imperio", "Avada Kedavra", "Acio", "Homenum Revelio" ],
+    "titulo" : "¿Cuál es nombre de la maldición tortura en 'Harry Potter'?"
+  }, {
+    "index" : 38.0,
+    "respuestaCorrecta" : "Remy",
+    "respuestasIncorrectas" : [ "Denis", "Gabi", "Henry", "Karim" ],
+    "titulo" : "¿Cómo se llama la rata protagonista de 'Ratatouille'?"
+  }, {
+    "index" : 39.0,
+    "respuestaCorrecta" : 7.0,
+    "respuestasIncorrectas" : [ 10.0, 3.0, 5.0, 8.0 ],
+    "titulo" : "¿Cuántos horrocruxes crea Voldemort?"
+  }, {
+    "index" : 40.0,
+    "respuestaCorrecta" : "Ella",
+    "respuestasIncorrectas" : [ "Ela", "Eya", "Bella", "Tecla" ],
+    "titulo" : "¿Cómo se llama la araña de intenta comerse a Frodo en 'El Retorno del Rey'?"
+  }, {
+    "index" : 41.0,
+    "respuestaCorrecta" : "Autobots",
+    "respuestasIncorrectas" : [ "Decepticons", "Prime", "Kantam", "Zord" ],
+    "titulo" : "En la saga Transformers, ¿cómo se llaman los robots buenos?"
+  }, {
+    "index" : 42.0,
+    "respuestaCorrecta" : "Azrael",
+    "respuestasIncorrectas" : [ "Israel", "Ismael", "Rafael", "Asreal" ],
+    "titulo" : "¿Cómo se llama el gato de Gargamel?"
+  }, {
+    "index" : 43.0,
+    "respuestaCorrecta" : "Bumblebee",
+    "respuestasIncorrectas" : [ "Optimus", "Kantam", "Megatrón", "Ironhide" ],
+    "titulo" : "¿Cuál es el nombre de transformer que acompaña al protagonista?"
+  }, {
+    "index" : 44.0,
+    "respuestaCorrecta" : "NASA",
+    "respuestasIncorrectas" : [ "FBI", "GSA", "NSF", "ATF" ],
+    "titulo" : "¿Dónde trabajan las protagonistas de la película 'Figuras Ocultas'?"
+  }, {
+    "index" : 45.0,
+    "respuestaCorrecta" : "Rowan Atkinson",
+    "respuestasIncorrectas" : [ "Woody Allen", "Ben Kingsley", "Nicolas Cage", "Hulk Hogan" ],
+    "titulo" : "¿Quién interpretó a Mr. Bean?"
+  }, {
+    "index" : 46.0,
+    "respuestaCorrecta" : "Dino",
+    "respuestasIncorrectas" : [ "Snoots", "Wooly", "Brincos", "Baby Puss" ],
+    "titulo" : "¿Cómo se llama el dinosaurio de 'Los Picapiedras'?"
+  }, {
+    "index" : 47.0,
+    "respuestaCorrecta" : "Cocoliso",
+    "respuestasIncorrectas" : [ "Brutus", "Pupeye", "Cole", "Ham" ],
+    "titulo" : "¿Cómo se llama el hijo de Popeye?"
+  }, {
+    "index" : 48.0,
+    "respuestaCorrecta" : "Chavo del 8",
+    "respuestasIncorrectas" : [ "Quico", "Don Ramón", "Chilindrina", "Profesor Jirafales" ],
+    "titulo" : "¿A quién le pertenece la frase: 'Se me chisporroteó'?"
+  }, {
+    "index" : 49.0,
+    "respuestaCorrecta" : "Central Perk",
+    "respuestasIncorrectas" : [ "Central Park", "Cheesecake", "MacLaren's", "Max and Henry" ],
+    "titulo" : "¿Cómo se llama el bar en el que trabaja Joey de 'Friends'?"
+  }, {
+    "index" : 50.0,
+    "respuestaCorrecta" : "C-3PO",
+    "respuestasIncorrectas" : [ "R2-D2", "BB-8", "Droideka", "HK-47" ],
+    "titulo" : "¿Qué androide creó Anakin Skywalker?"
+  }, {
+    "index" : 51,
+    "nombreUsuario" : "Pedro",
+    "respuestaCorrecta" : "El Renacido",
+    "respuestasIncorrectas" : [ "Titanic", "El Lobo de Wall Street", "Atrápame si puedes", "Shutter Island" ],
+    "titulo" : "Película con la que Leonardo DiCaprio ganó un Oscar"
+  } ],
+  "usuarios":{
+    "Carmen" : {
+        "index" : 138,
+        "nombre" : "Carmen",
+        "puntos" : 120
+    },
+    "Fran" : {
+        "index" : 908,
+        "nombre" : "Fran",
+        "puntos" : 160
+    },
+    "Juan" : {
+        "index" : 507,
+        "nombre" : "Juan",
+        "puntos" : 90
+    },
+    "Luis" : {
+        "index" : 590,
+        "nombre" : "Luis",
+        "puntos" : 150
+    },
+    "Mesu" : {
+        "index" : 580,
+        "nombre" : "Mesu",
+        "puntos" : 190
+    },
+    "Paola" : {
+        "index" : 130,
+        "nombre" : "Paola",
+        "puntos" : 10
+    },
+    "Pepa" : {
+       "index" : 177,
+       "nombre" : "Pepa",
+       "puntos" : 0
+    },
+    "Pepe" : {
+        "index" : 670,
+        "nombre" : "Pepe",
+        "puntos" : 80
+    },
+    "Sandra" : {
+        "index" : 888,
+        "nombre" : "Sandra",
+        "puntos" : 70
+    },
+    "Tere" : {
+       "index" : 24,
+       "nombre" : "Tere",
+       "puntos" : 110
+    },
+    "Toñi" : {
+        "index" : 2,
+        "nombre" : "Toñi",
+        "puntos" : 100
+    }
+  }
+}

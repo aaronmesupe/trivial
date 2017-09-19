@@ -1,0 +1,37 @@
+.usuarios-ranking{
+	position: absolute;
+	top: 150px;
+	left: 520px;
+}
+
+.ranking{
+	color: white;
+	height: 350px;
+	width: 300px;
+	font-size: 18px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.jugador{
+	color: #F7FE2E;
+}
+
+@media (max-width: 815px){
+	.usuarios-ranking{
+		position: absolute;
+		top: 150px;
+		left: 280px;
+		width: 250px;
+	}
+}
+
+@media (max-width: 400px){
+	.usuarios-ranking{
+		left: 40px;
+	}
+
+	.ranking{
+		width: 230px;
+	}
+}

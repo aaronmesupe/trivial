@@ -1,0 +1,41 @@
+body{
+	background: url(../images/fondo-inicio.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.index{
+	position: absolute;
+	top: 190px;
+	left: 580px;
+	width: 250px;
+}
+
+.jugardor{
+	margin: 0 auto;
+}
+
+.jugar{
+	margin-top: 10px;
+	margin-left: 50px;
+	font-family: 'Baloo Tammudu', cursive;
+}
+
+@media (max-width: 815px){
+	.index{
+		left: 280px;
+	}
+}
+
+@media (max-width: 400px){
+	.index{
+		left: 40px;
+	}
+	body{
+		background: url(../images/fondo-sm.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+}
