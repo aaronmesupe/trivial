@@ -1,5 +1,131 @@
 {
   "preguntas" : {
+    "geografia" : [ {
+      "index" : 0,
+      "respuestaCorrecta" : "respuestaCorrecta",
+      "respuestasIncorrectas" : [ "respuesta1", "respuesta2", "respuesta3", "respuesta4" ],
+      "titulo" : "Valor de la pregunta"
+    },
+    {
+      "index" : 1,
+      "respuestaCorrecta" : "Australia",
+      "respuestasIncorrectas" : [ "Estados Unidos", "España", "Inglaterra", "Portugal" ],
+      "titulo" : "¿A qué país pertenece la isla de Tasmania?"
+    },
+    {
+      "index" : 2,
+      "respuestaCorrecta" : "Colombia",
+      "respuestasIncorrectas" : [ "Chile", "Venezuela", "Costa Rica", "Venezuela" ],
+      "titulo" : "¿En qué país situarías la ciudad de Cali?"
+    },
+    {
+      "index" : 3,
+      "respuestaCorrecta" : 5,
+      "respuestasIncorrectas" : [ 4, 3, 1, "ninguno" ],
+      "titulo" : "¿Con cuántos países limita Argentina?"
+    },
+    {
+      "index" : 4,
+      "respuestaCorrecta" : "Berna",
+      "respuestasIncorrectas" : [ "Zurich", "Ginebra", "Basilea", "Lucerna" ],
+      "titulo" : "¿Cuál es la capital de Suiza?"
+    },
+    {
+      "index" : 5,
+      "respuestaCorrecta" : "Israel",
+      "respuestasIncorrectas" : [ "Irak", "Nada", "Un río", "Afganistán" ],
+      "titulo" : "¿Qué separa las franjas de Gaza y Cisjordania?"
+    },
+    {
+      "index" : 6,
+      "respuestaCorrecta" : "Trípoli",
+      "respuestasIncorrectas" : [ "Beirut", "El Cairo", "Riad", "Kabul" ],
+      "titulo" : "¿Cuál es la capital de Libia?"
+    },
+    {
+      "index" : 7,
+      "respuestaCorrecta" : "Skopje",
+      "respuestasIncorrectas" : [ "Chisinau", "La Valeta", "Sarajevo", "Tirana" ],
+      "titulo" : "¿Cuál es la capital de la república de Macedonia?"
+    },
+    {
+      "index" : 8,
+      "respuestaCorrecta" : "Archipiélago",
+      "respuestasIncorrectas" : [ "Islotes", "Meandro", "Península", "Isla" ],
+      "titulo" : "¿Qué accidente geográfico se define como: 'conjunto de islas, islotes y diminutas masas de tierra cercanas entre sí'?"
+    },
+    {
+      "index" : 9,
+      "respuestaCorrecta" : "México",
+      "respuestasIncorrectas" : [ "Argentina", "Colombia", "Chile", "Costa Rica" ],
+      "titulo" : "¿A qué país pertenece la isla Mujeres?"
+    },
+    {
+      "index" : 10,
+      "respuestaCorrecta" : "Asia y Europa",
+      "respuestasIncorrectas" : [ "Asia", "Europa", "África y Europa", "Oceanía" ],
+      "titulo" : "¿En qué continente/s se encuentra Turquía?"
+    },
+    {
+      "index" : 11,
+      "respuestaCorrecta" : "Pontevedra",
+      "respuestasIncorrectas" : [ "Lugo", "La Coruña", "Orense", "Vigo" ],
+      "titulo" : "¿Dónde se encuentra Baiona?"
+    },
+    {
+      "index" : 12,
+      "respuestaCorrecta" : "Argel",
+      "respuestasIncorrectas" : [ "Argelia", "Arabia", "Colombo", "Argela" ],
+      "titulo" : "¿Cuál es la capital de Argelia?"
+    },
+    {
+      "index" : 13,
+      "respuestaCorrecta" : "Asia",
+      "respuestasIncorrectas" : [ "América", "Europa", "Oceanía", "Antártida" ],
+      "titulo" : "¿En qué continente está la India?"
+    },
+    {
+      "index" : 14,
+      "respuestaCorrecta" : "Berlín",
+      "respuestasIncorrectas" : [ "Múnich", "Frankfurt", "Dublín", "Hamburgo" ],
+      "titulo" : "¿Cúal es la capital de Alemania?"
+    },
+    {
+      "index" : 15,
+      "respuestaCorrecta" : "Quito",
+      "respuestasIncorrectas" : [ "Lima", "Bogota", "Guayaquil", "Loja" ],
+      "titulo" : "¿Cuál es la capital de Ecuador?"
+    },
+    {
+      "index" : 16,
+      "respuestaCorrecta" : "Tokio",
+      "respuestasIncorrectas" : [ "Kyoto", "Pekin", "Osaka", "Yokohama" ],
+      "titulo" : "¿Cuál es la capital de Japón?"
+    },
+    {
+      "index" : 17,
+      "respuestaCorrecta" : "Chad",
+      "respuestasIncorrectas" : [ "Marruecos", "Túnez", "Sudáfrica", "Costa de Marfil" ],
+      "titulo" : "¿Cuál de estos países africanos NO tiene costa?"
+    },
+    {
+      "index" : 18,
+      "respuestaCorrecta" : "Tarragona",
+      "respuestasIncorrectas" : [ "Barcelona", "Castellón", "Zaragoza", "Valencia" ],
+      "titulo" : "¿En qué provincia desemboca el Ebro en el Mediterráneo?"
+    },
+    {
+      "index" : 19,
+      "respuestaCorrecta" : 5,
+      "respuestasIncorrectas" : [ 6, 3, "No tiene", 4 ],
+      "titulo" : "¿Cuántas estrellas tiene la bandera de China?"
+    },
+    {
+      "index" : 20,
+      "respuestaCorrecta" : "Comoras",
+      "respuestasIncorrectas" : [ "Brunei", "China", "Indonesia", "Sri Lanka" ],
+      "titulo" : "¿Qué país NO se encuentra en Asia?"
+    } ],
     "ciencias" : [ {
       "index" : 0.0,
       "respuestaCorrecta" : "respuestaCorrecta",
