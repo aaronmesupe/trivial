@@ -39,7 +39,7 @@ function anadirPreguntas(preguntasAnadidas){
 
 		if ( usuario === "" || titulo === "" || rc === "" || ri1 === "" || ri2 === "" || ri3 === ""
 				|| ri4 === "" || cat == "0"){
-			var reiniciar = confirm('Faltan campos por reyenar. \n¿Reiniciar formulario?');
+			var reiniciar = confirm('Faltan campos por rellenar. \n¿Reiniciar formulario?');
 			if (reiniciar == true){
 				limpiar();
 			}
@@ -49,7 +49,7 @@ function anadirPreguntas(preguntasAnadidas){
 			long = preguntasAnadidas[cat].length
 
 			dbPregunta = firebase.database().ref().child('preguntas/'+cat+'/'+long)
-			dbPregunta.set({"index":long,"nombreUsuario":usuario,"titulo":titulo,
+			dbPregunta.set({"index":long,"usuario":usuario,"titulo":titulo,
 		 	"respuestaCorrecta":rc,"respuestasIncorrectas":[ri1, ri2, ri3, ri4]});
 		 	limpiar();
 		 	alert('Formulario enviado correctamente');

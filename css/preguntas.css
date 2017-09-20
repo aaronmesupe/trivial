@@ -15,12 +15,21 @@ header{
 	display: flex;
 	border-bottom: 1px solid white;
 	color: white;
-	margin-bottom: 5px;
 	align-items: center;
 }
 
-#vidas{
+.preguntaUsuario{
+	color: white;
+	font-size: 12px;
+}
+
+#usuario{
+	margin-top: 7px;
+}
+
+#puntos, #vidas{
 	margin-left: 40px;
+	margin-top: 7px;
 } 
 
 section{

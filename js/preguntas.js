@@ -9,6 +9,17 @@ var config = {
 };
 firebase.initializeApp(config);
 
+//Funcion que coge el nombre del usuario y lo usa para mostrarlo en el header
+//o almacenarlo en la base de datos
+function nombreUsuario(){
+    var cogerNombre = window.location.search.substr(1);
+    var nombre = cogerNombre.split ("=");
+    nombre = nombre[1];
+    return nombre
+}
+$('#usuario').text(' '+ nombreUsuario());
+
+
 var categoria = window.location.search.substr(1);
 var nombreCategoria = categoria.split ("?");
 nombreCategoria = nombreCategoria[0]
@@ -53,6 +64,14 @@ function preguntas(arrayPreguntas){
             '</button></div>');
 
     }// FIN del FOR*/
+
+    creadorPregunta = pregunta.usuario;
+
+    if ( creadorPregunta != undefined){
+        preguntaUsuario = $('.buttons').parent();
+        $(preguntaUsuario).append('<p class="row justify-content-center preguntaUsuario">Pregunta creada por: '+
+            pregunta.usuario+'</p>')
+    }
 
     $('.boton').on("click", comprobar);
 
@@ -115,14 +134,14 @@ function comprobar(){
     //Quita vidas
     function vidas(){
         numeroVidas = numeroVidas - 1;
-        $('#vidas').text('Vidas: '+ numeroVidas);
+        $('#vidas').text(' Vidas: '+ numeroVidas);
         return numeroVidas;
     }
 
     //Suma puntos
     function puntos(){
         numeroPuntos = numeroPuntos + 10;
-        $('#puntos').text('Puntos: '+ numeroPuntos + ' pts');
+        $('#puntos').text(' Puntos: '+ numeroPuntos + ' pts');
         return numeroPuntos;
     }
 
@@ -149,9 +168,7 @@ function move(){
 }
 
 function anadirPuntos(numeroPuntos){
-    var parametro = window.location.search.substr(1);
-    var nombre = parametro.split ("=");
-    nombre = nombre[1]
+    nombre = nombreUsuario();
 
     ref = numRandom(1,1000)
     dbUsuario = firebase.database().ref().child('usuarios/'+nombre)
