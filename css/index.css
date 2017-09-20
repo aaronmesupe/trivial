@@ -19,12 +19,16 @@ body{
 }
 
 button{
-	width: 120px;
+	width: 130px;
 }
 
 .cine, .ciencias, .historia, .deportes, .lengua, .geografia, .random{
 	margin-top: 10px;
 	margin-left: 10px;
+}
+
+.categoria{
+	font-size: 17px;
 	font-family: 'Baloo Tammudu', cursive;
 }
 

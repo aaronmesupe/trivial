@@ -17,7 +17,7 @@ function nombreUsuario(){
     nombre = nombre[1];
     return nombre
 }
-$('#usuario').text(' '+ nombreUsuario());
+$('#usuario').children('.fuente').text(' '+ nombreUsuario());
 
 
 var categoria = window.location.search.substr(1);
@@ -134,14 +134,14 @@ function comprobar(){
     //Quita vidas
     function vidas(){
         numeroVidas = numeroVidas - 1;
-        $('#vidas').text(' Vidas: '+ numeroVidas);
+        $('#vidas').children('.fuente').text(' '+ numeroVidas);
         return numeroVidas;
     }
 
     //Suma puntos
     function puntos(){
         numeroPuntos = numeroPuntos + 10;
-        $('#puntos').text(' Puntos: '+ numeroPuntos + ' pts');
+        $('#puntos').children('.fuente').text(' '+ numeroPuntos + ' pts');
         return numeroPuntos;
     }
 

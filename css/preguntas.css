@@ -23,6 +23,10 @@ header{
 	font-size: 12px;
 }
 
+.fuente{
+	font-family: 'Baloo Tammudu', cursive;
+}
+
 #usuario{
 	margin-top: 7px;
 }
