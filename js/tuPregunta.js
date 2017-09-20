@@ -22,6 +22,7 @@ function mayuscula(string){
 function anadirPreguntas(preguntasAnadidas){
 
 	categorias =Object.keys(preguntasAnadidas)
+	categorias.pop()
 
 	for(var i = 0; i < categorias.length; i++){
 		$('#default').after("<option value="+categorias[i]+">"+mayuscula(categorias[i])+"</option>");
