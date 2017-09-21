@@ -1,3 +1,7 @@
+body{
+	background: url('../images/fondo2.jpg');
+}
+
 .usuarios-ranking{
 	align-items: center;
 	height: 100vh;

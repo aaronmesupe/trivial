@@ -1,8 +1,5 @@
 body{
-	background: url(../images/fondo-inicio.png);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+	background: url('../images/fondo2.jpg');
 }
 .index{
 	top: 150px;
