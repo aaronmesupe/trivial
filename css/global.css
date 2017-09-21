@@ -22,7 +22,7 @@ body{
 }
 
 
-@media (max-width: 815px){
+@media (max-width: 900px){
 	.menu{
 		left: 280px;
 		font-size: 13px;

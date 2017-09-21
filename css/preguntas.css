@@ -80,7 +80,7 @@ button{
 	.caja-pregunta{
 		position: absolute;
 		top: 130px;
-		left: 20px;
+		left: 80px;
 		width: 250px;
 	}
 
@@ -92,4 +92,11 @@ button{
 		margin-bottom: 10px;
 	}
 
+}
+
+@media (max-width: 750px){
+
+	.caja-pregunta{
+		left: 20px;
+	}
 }
