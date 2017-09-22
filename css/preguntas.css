@@ -80,8 +80,8 @@ button{
 	.caja-pregunta{
 		position: absolute;
 		top: 130px;
-		left: 80px;
-		width: 250px;
+		left: 70px;
+		width: 360px;
 	}
 
 	h3{
@@ -94,9 +94,10 @@ button{
 
 }
 
-@media (max-width: 750px){
+@media (max-width: 400px){
 
 	.caja-pregunta{
 		left: 20px;
+		width: 250px;
 	}
 }
